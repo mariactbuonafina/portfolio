@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Início</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="perfil" class="perfil-section container my-5">
+        <div class="card border-0 shadow-lg rounded-4 p-4 bg-light">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img src="./img/foto maria.jpg" alt="Foto de perfil" class="img-fluid rounded-circle border border-3" style="max-width: 220px;">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="mb-3">Maria Clara T. Buonafina</h2>
+                    <p class="lead text-muted">Desenvolvedora Web e Analista de Dados</p>
+                    <p>Sou apaixonada por tecnologia, design e inovação. Busco criar soluções elegantes e funcionais utilizando HTML, CSS e JavaScript, enquanto continuo aprendendo sobre novas ferramentas no mundo do desenvolvimento web.</p>
+                    <a href="contato.html" class="btn btn-dark mt-3">Entrar em Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section id="intro" class="intro">
+        <h2>Bem-vindo ao Meu Portfólio</h2>
+        <p>Sou uma desenvolvedora iniciante apaixonada por aprender novas tecnologias e criar soluções inovadoras.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Habilidades</th>
+                    <th>Níveis de Proficiência</th>
+                    <th>Cargos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Avançado</td>
+                    <td>Desenvolvedora Júnior</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Avançado</td>
+                    <td>Desenvolvedora Júnior</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Avançado</td>
+                    <td>Desenvolvedora Júnior</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>Intermediário</td>
+                    <td>Analista Júnior</td>
+                </tr>
+            </tbody>
+        </table>
+        </p>
+    </section>
+
+    <section id="projects-tittle" class="projects-tittle">
+        <div class="tittle">
+           <h2>Veja alguns dos meus projetos:</h2>
+       </div>
+
+    <section id="projects" class="projects">
+        <div class="project-item">
+            <h3>Jogo do Número</h3>
+            <p>Este é um projeto simples feito com HTML, CSS e JavaScript para demonstrar habilidades básicas programação de com JavaScript.</p>
+            <a href="https://github.com/mariactbuonafina/JogoDoNumeroSecreto">Ver Projeto</a>
+            <img src="img/backgroundgame.png" alt="">
+        </div>
+
+        <div class="project-item">
+            <h3>Jogo do Mario - Web</h3>
+            <p>Uma versão web simples do jogo do mario, onde ele não pode encostar no obstáculo (tubo) e para isso, deve usar uma letra do teclado para pular.</p>
+            <a href="https://github.com/mariactbuonafina/jogoMario">Ver Projeto</a>
+            <img src="./img/jogodomario.png" alt="">
+        </div>
+
+        <div class="project-item">
+            <h3>Sistema de Pedidos Simples com Python</h3>
+            <p>Um sistema de pedidos de uma lanchonete desenvolvido com Python.</p>
+            <a href="https://github.com/mariactbuonafina/SistemadePedidos-Lanchonete">Ver Projeto</a>
+            <img src="./img/pedidoslanchonete.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="carrossel" class="container my-5">
+        <h2 class="text-center mb-4">Destaques</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/backgroundgame.png" alt="" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/jogodomario.png" alt="" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/sistemadepedidos.jpg" alt="" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>    
+
+    <footer>
+        <p>&copy; 2024 - Todos os Direitos Reservados.</p>
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
