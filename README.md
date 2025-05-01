@@ -15,9 +15,10 @@ Este é um projeto de portfólio digital que reúne informações e projetos des
 
 ## ✅ Requisitos para rodar o projeto
 
-- Node.js v18 ou superior
-- npm ou yarn
-- Navegador moderno (Chrome, Firefox, Edge)
+- Node.js v18 ou superior;
+- npm ou yarn;
+- Navegador moderno (Chrome, Firefox, Edge);
+- Para que o código funcione de forma semelhante em sua máquina, as imagens estão inseridas em uma pasta chamada "img". Você irá precisar criar uma ou separar cada imagem na busca.
 
 ## 🚀 Como rodar
 
